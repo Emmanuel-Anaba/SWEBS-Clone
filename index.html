@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWEBS Institute</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <img
+          src="images/logo.webp"
+          alt="logo"
+          class="nav-brand"
+          height="50vh" />
+        <!-- Toggle Btn -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWarningNavbar"
+          aria-controls="offcanvasWarningNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Sidebar -->
+        <div
+          class="offcanvas offcanvas-start bg-white"
+          tabindex="-1"
+          id="offcanvasWarningNavbar"
+          aria-labelledby="offcanvasWarningNavbarLabel">
+          <!-- Sidebar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <img
+              src="images/logo.webp"
+              alt="logo"
+              class="nav-brand"
+              height="50vh" />
+
+            <!-- Close Btn -->
+            <button
+              type="button"
+              class="btn-close btn-close-primary shadow-none border-0"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Sidebar Body -->
+          <div class="offcanvas-body d-flex align-items-center">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-primary btn" href="#home">
+                  <i class="fa fa-home pe-1"></i>Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary btn" href="#about">
+                  <i class="fa fa-user pe-1"></i>About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary btn" href="#contact">
+                  <i class="fa fa-envelope pe-1"></i>Contact
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary btn" href="apply.html">
+                  <i class="fa fa-tasks pe-1"></i>Apply
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header With Carousel -->
+    <header>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active a">
+            <div class="container contain" >
+              <div class="col-md-12 col-lg-9">
+                <h1 class="display-1 text-white">
+                  Kickstart Your Career In Tech
+                </h1>
+                <a
+                  href="apply.html"
+                  class="btn btn-rounded hero-btn bg-primary text-white px-4 py-2 mt-4"
+                  tabindex="0"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item b">
+            <div class="container contain">
+              <div class="col-md-12 col-lg-9">
+                <h1 class="display-1 text-white">
+                  Kickstart Your Career In Tech
+                </h1>
+                <a
+                  href="apply.html"
+                  class="btn btn-rounded hero-btn bg-primary text-white px-4 py-2 mt-4"
+                  tabindex="0"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c">
+            <div class="container contain">
+              <div class="col-md-12 col-lg-9">
+                <h1 class="display-1 text-white">
+                  Kickstart Your Career In Tech
+                </h1>
+                <a
+                  href="apply.html"
+                  class="btn btn-rounded hero-btn bg-primary text-white px-4 py-2 mt-4"
+                  tabindex="0"
+                  >Apply Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Courses -->
+    <section>
+      <h3 class="text-center m-3 text-primary">Our Courses</h3>
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-primary border-primary m-2">
+              <!-- An Icon is meant to be here -->
+              <h5 class="text-center text-white px-2">
+                Design Thinking and Critical Thinking
+              </h5>
+              <p class="text-center text-white px-2">
+                Learn various problem-solving approaches and thinking
+                strategies. We will introduce you with mindsets, techniques, and
+                resources that enhance your problem-solving skill set.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-primary border-primary m-2">
+              <!-- An Icon is meant to be here -->
+              <h5 class="text-center text-white px-2">Database Management</h5>
+              <p class="text-center text-white px-2">
+                You have probably already heard of databases, we would introduce
+                you to the different types (relational, NoSQL etc.). You would
+                learn data modeling and core concepts to manage any type of data
+                store.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-primary border-primary m-2">
+              <!-- An Icon is meant to be here -->
+              <h5 class="text-center text-white px-2">Software Engineering</h5>
+              <p class="text-center text-white px-2">
+                Learn a variety of software development languages like Java,
+                Python, JavaScript, Node.js, GoLang and many more. You will also
+                learn software development frameworks like Spring Boot, Django,
+                React, Vue, Flutter, Kotlin depending on your chosen career path
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us (Who We Are) -->
+    <section id="about">
+      <div class="container">
+        <h3 class="text-center m-3 text-primary">Who We Are</h3>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card border-0 bg-transparent">
+              <p class="text-primary">
+                Swebs Instttute is a lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minimveniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="card border-0 bg-transparent">
+              <img src="images/about.webp" alt="restaurant" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pillars of Excellence -->
+    <section class="bg-primary">
+      <h3 class="text-center pt-3 text-white">Our Pillars of Excellence</h3>
+      <div class="container pb-3">
+        <div class="row">
+          <!-- The Images here need to be edited and also be te same size in pixels (preferably a square) -->
+          <div class="col-md-6">
+            <div class="card border-white my-1">
+              <img src="images/about.webp" alt="about" width="100%" />
+              <div class="p-2 bg-white text-primary">
+                <h6>Cutting-Edge Curriculum</h6>
+                <p class="m-0">
+                  Our evolving curriculum, attuned to the latest industry trends
+                  and technological advancements, provides students with
+                  hands-on experience through real-world projects. This approach
+                  ensures they acquire the skills necessary to seamlessly
+                  transition into their professional roles upon graduation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-white my-1">
+              <img src="images/about.webp" alt="about" width="100%" />
+              <div class="p-2 bg-white text-primary">
+                <h6>Expert Faculty</h6>
+                <p class="m-0">
+                  Our team, a blend of industry veterans and top-notch
+                  academics, is passionate about teaching and empowering the
+                  next generation of software engineers. Their wealth of
+                  practical knowledge creates a dynamic classroom experience,
+                  ensuring students receive valuable insights for their future
+                  careers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-white my-1">
+              <img src="images/about.webp" alt="about" width="100%" />
+              <div class="p-2 bg-white text-primary">
+                <h6>State-of-the-Art Infrastructure</h6>
+                <p class="m-0">
+                  Substantial investment has gone into crafting a contemporary
+                  and invigorating learning space. Our labs boast
+                  state-of-the-art software development tools and technologies,
+                  fostering an environment that nurtures collaboration,
+                  creativity, and innovation on our campus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-white my-1">
+              <img src="images/about.webp" alt="about" width="100%" />
+              <div class="p-2 bg-white text-primary">
+                <h6>Strong Industry Partnerships</h6>
+                <p class="m-0">
+                  Our strong partnerships with top technology companies
+                  guarantee valuable benefits for students—internship access,
+                  mentorship programs, and enhanced job placement opportunities.
+                  This strategic collaboration markedly enhances their chances
+                  of success in the dynamic job market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="bg-dark pb-5">
+      <h3 class="text-center pt-3 text-white">What Our Students Have To Say</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-white p-3 bg-transparent border-0">
+              <div class="text-center">
+                <img
+                  class="round mb-3"
+                  src="images/alex.webp"
+                  alt="Alex"
+                  width="70%" />
+              </div>
+              <p>
+                The best learning environment ever. Emphasis on creativity,
+                innovation, and support from leading tech companies, including
+                partnerships with GlobalTech Solutions, created a pathway to
+                success. I'm thriving in my career, all thanks to this program.
+              </p>
+              <blockquote class="fs-5 text-end me-3">Alex Harrison</blockquote>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white p-3 bg-transparent border-0">
+              <div class="text-center">
+                <img
+                  class="round mb-3"
+                  src="images/emily.webp"
+                  alt="Emily"
+                  width="70%" />
+              </div>
+              <p>
+                Top-notch academics and industry veterans, including Professor
+                Anderson, provided valuable insights. Real-world projects honed
+                my skills. Transitioning from student to professional was
+                seamless.
+              </p>
+              <blockquote class="fs-5 text-end me-3">Emily Williams</blockquote>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white p-3 bg-transparent border-0">
+              <div class="text-center">
+                <img
+                  class="round mb-3"
+                  src="images/joy.webp"
+                  alt="Joy"
+                  width="70%" />
+              </div>
+              <p>
+                The commitment to staying abreast of industry trends sets this
+                program apart. A collaboration-driven campus and
+                state-of-the-art labs made learning engaging. Strategic
+                partnerships with companies like InnovateTech secured a
+                fantastic job post-graduation.
+              </p>
+              <blockquote class="fs-5 text-end me-3">Joy Maduka</blockquote>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white p-3 bg-transparent border-0">
+              <div class="text-center">
+                <img
+                  class="round mb-3"
+                  src="images/nathaniel.webp"
+                  alt="Nathaniel"
+                  width="70%" />
+              </div>
+              <p>
+                Enrolling at this institution was a game-changer. The dynamic
+                curriculum, hands-on projects, and experienced instructors,
+                particularly Professor Johnson, prepared me for the tech
+                industry. I now feel ready for real-world challenges.
+              </p>
+              <blockquote class="fs-5 text-end me-3">Nathaniel Dike</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counter Cards-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="counter-card col-md-3 p-2">
+            <div class="card text-center py-5 m-3 text-white bg-warning">
+              <h1>237</h1>
+              <p>Total Students</p>
+            </div>
+          </div>
+          <div class="counter-card col-md-3 p-2">
+            <div class="card text-center py-5 m-3 text-white bg-warning">
+              <h1>102</h1>
+              <p>Working Students</p>
+            </div>
+          </div>
+          <div class="counter-card col-md-3 p-2">
+            <div class="card text-center py-5 m-3 text-white bg-warning">
+              <h1>11</h1>
+              <p>Instructors</p>
+            </div>
+          </div>
+          <div class="counter-card col-md-3 p-2">
+            <div class="card text-center py-5 m-3 text-white bg-warning">
+              <h1>9</h1>
+              <p>Partners</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apply -->
+    <section class="bg-primary">
+      <div class="container py-5">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-md-8">
+            <h2 class="display-3 text-white">
+              Do you want to learn how to code?
+              <br />
+              Join the next cohort now
+            </h2>
+          </div>
+          <div class="col-md-2">
+            <a
+              href="apply.html"
+              class="btn btn-rounded hero-btn bg-white text-primary px-4 py-2 mt-4"
+              >Apply Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Key Partners -->
+    <section>
+      <h3 class="text-center m-3 text-primary">Our Key Partners</h3>
+      <div class="container mb-3">
+        <div class="row">
+          <!-- The Images here need to be edited and also be te same size in pixels (preferably a square) -->
+          <div class="col-md-4">
+            <div class="card border-primary m-2">
+              <img
+                src="images/ugo.webp"
+                alt="Ugochi"
+                width="100%"
+                id="partner" />
+              <div class="container-fluid p-2 bg-primary text-white">
+                <h4 class="text-center">Ugochi Onyenaucheya</h4>
+                <p class="m-0 px-3">CEO, Swebs Limited</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-primary m-2">
+              <img
+                src="images/tosin.webp"
+                alt="tosin"
+                width="100%"
+                id="partner" />
+              <div class="container-fluid p-2 bg-primary text-white">
+                <h4 class="text-center">Tosin Oguntunde</h4>
+                <p class="m-0 px-3">Founder, OpportunityGist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-primary m-2">
+              <img
+                src="images/precious.webp"
+                alt="precious"
+                width="100%"
+                id="partner" />
+              <div class="container-fluid p-2 bg-primary text-white">
+                <h4 class="text-center">Precious Uche</h4>
+                <p class="m-0">CreditSafe(UK), Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="bg-primary">
+      <div class="container">
+        <h3 class="text-center p-3 m-0 text-white">Send Us A Message</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div
+              class="card text-white bg-transparent border-0 text-center mb-3">
+              <form>
+                <input
+                  class="form-control mb-2"
+                  placeholder="Name"
+                  type="text"
+                  required />
+                <input
+                  class="form-control mb-2"
+                  placeholder="Email"
+                  type="number"
+                  required />
+                <input
+                  class="form-control mb-2"
+                  type="number"
+                  placeholder="Phone Number"
+                  required />
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  cols="20"
+                  rows="5"></textarea>
+                <div class="text-start">
+                  <button class="btn bg-white mt-3 px-4 text-primary">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="vh-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 my-5">
+            <img
+              src="images/logo.webp"
+              alt="logo"
+              class="nav-brand my-3"
+              height="50vh" />
+            <p class="text-white">
+              Call : 07044966459
+              <br />
+              Address : 377a, Omofade Crescent, Omole Estate, Ojodu, Lagos.
+            </p>
+          </div>
+          <div class="col md-12 py-3">
+            <div class="card border-top bg-transparent py-4">
+              <p class="text-white">
+                Copyright © 2023 All rights reserved | SwebsInstitute
+              </p>
+              <div>
+                <a href="#" class="text-white me-2"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-white m-2"
+                  ><i class="fas fa-globe"></i
+                ></a>
+                <a href="#" class="text-white m-2"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="text-white m-2"
+                  ><i class="fab fa-x-twitter"></i
+                ></a>
+                <a href="#" class="text-white m-2"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

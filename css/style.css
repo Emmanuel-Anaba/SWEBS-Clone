@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+  box-shadow: 0 10px 10px rgba(25, 25, 25, 0.1);
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover::before {
+  width: 100%;
+}
+
+/* Header */
+.carousel-item {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-1 {
+  font-weight: 500 !important;
+}
+
+.a {
+  background-image: url(/images/home-a.webp);
+}
+.b {
+  background-image: url(/images/home-b.webp);
+}
+.c {
+  background-image: url(/images/home-c.webp);
+}
+
+/* Testimonial Images */
+.round {
+  border-radius: 100%;
+  border: 2px white solid;
+}
+
+/* Counter Cards */
+.counter-card {
+  position: relative;
+  top: -10vh;
+}
+
+/* Image in footer */
+footer {
+  background-image: url(/images/footer_bg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Testimomial Names */
+blockquote {
+  font-weight: 500 !important;
+}
+
+/* Key Partners Start */
+#partner {
+  transition: 1s;
+}
+
+#partner:hover {
+  transform: scale(1.1);
+}
+
+.container-fluid {
+  z-index: 1;
+}
+
+/*  Horizontal Line b4 text  */
+.container-fluid p::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  background: #fff;
+  margin: 4px 10px;
+}
+
+.container h6::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  background: #0d6efd;
+  margin: 4px 10px;
+}
+
+blockquote::before {
+  content: "";
+  width: 20%;
+  height: 2px;
+  display: inline-block;
+  background: #fff;
+  margin: 4px 10px;
+}
