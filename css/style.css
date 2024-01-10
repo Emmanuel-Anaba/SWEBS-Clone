@@ -46,13 +46,13 @@ nav {
 }
 
 .a {
-  background-image: url(/images/home-a.webp);
+  background-image: url(/images/home-a.webp) !important;
 }
 .b {
-  background-image: url(/images/home-b.webp);
+  background-image: url(/images/home-b.webp) !important;
 }
 .c {
-  background-image: url(/images/home-c.webp);
+  background-image: url(/images/home-c.webp) !important;
 }
 
 /* Testimonial Images */
@@ -69,7 +69,7 @@ nav {
 
 /* Image in footer */
 footer {
-  background-image: url(/images/footer_bg.webp);
+  background-image: url(/images/footer_bg.webp) !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
