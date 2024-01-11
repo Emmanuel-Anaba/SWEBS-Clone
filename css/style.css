@@ -67,14 +67,6 @@ nav {
   top: -10vh;
 }
 
-/* Image in footer */
-footer {
-  background-image: url(/images/footer_bg.webp) !important;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 /* Testimomial Names */
 blockquote {
   font-weight: 500 !important;
@@ -95,7 +87,7 @@ blockquote {
 }
 
 /*  Horizontal Line b4 text  */
-.container-fluid p::before {
+#key-partners p::before{
   content: "";
   width: 60px;
   height: 2px;
