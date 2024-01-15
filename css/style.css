@@ -113,3 +113,8 @@ blockquote::before {
   background: #fff;
   margin: 4px 10px;
 }
+
+/* Footer Image */
+footer{
+  background-image: url(/images/footer_bg.webp);
+}
