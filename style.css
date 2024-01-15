@@ -4,6 +4,21 @@
   box-sizing: border-box !important;
 }
 
+/* Footer Image */
+footer{
+  background-image: url(/images/footer_bg.webp);
+}
+
+.a {
+  background-image: url(/images/home-a.jpg) !important;
+}
+.b {
+  background-image: url(/images/home-b.jpg) !important;
+}
+.c {
+  background-image: url(/images/home-c.jpg) !important;
+}
+
 /* Navbar */
 nav {
   box-shadow: 0 10px 10px rgba(25, 25, 25, 0.1);
@@ -45,15 +60,7 @@ nav {
   font-weight: 500 !important;
 }
 
-.a {
-  background-image: url(/images/home-a.jpg) !important;
-}
-.b {
-  background-image: url(/images/home-b.jpg) !important;
-}
-.c {
-  background-image: url(/images/home-c.jpg) !important;
-}
+
 
 /* Testimonial Images */
 .round {
@@ -112,9 +119,4 @@ blockquote::before {
   display: inline-block;
   background: #fff;
   margin: 4px 10px;
-}
-
-/* Footer Image */
-footer{
-  background-image: url(/images/footer_bg.webp);
 }
