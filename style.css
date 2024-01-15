@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box !important;
+  box-sizing: border-box;
 }
 
 /* Footer Image */
@@ -10,13 +10,13 @@ footer{
 }
 
 .a {
-  background-image: url(/images/home-a.jpg) !important;
+  background-image: url(/images/home-a.jpg);
 }
 .b {
-  background-image: url(/images/home-b.jpg) !important;
+  background-image: url(/images/home-b.jpg);
 }
 .c {
-  background-image: url(/images/home-c.jpg) !important;
+  background-image: url(/images/home-c.jpg);
 }
 
 /* Navbar */
