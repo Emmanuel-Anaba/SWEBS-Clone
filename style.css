@@ -43,7 +43,7 @@ nav {
 
 /* Header */
 .carousel-item {
-  min-height: 100vh;
+  min-height: 100svh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
